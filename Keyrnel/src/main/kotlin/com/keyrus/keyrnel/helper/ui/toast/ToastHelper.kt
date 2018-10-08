@@ -13,7 +13,7 @@ import android.widget.Toast
  * Created by Paul Mougin on 24/11/2016.
  */
 
-object ToastUtils {
+object ToastHelper {
 
     /**
      * Show a toast message

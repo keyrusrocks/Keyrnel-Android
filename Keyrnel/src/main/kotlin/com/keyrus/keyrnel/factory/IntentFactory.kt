@@ -18,7 +18,7 @@ object IntentFactory {
     /**
      * Create an intent to send mail to a list of addresses with a subject
      */
-    fun composeEmail(addresses: Array<String>, subject: String): Intent {
+    fun composeEmail(addresses: Array<String>, subject: String?): Intent {
         val intent = Intent(Intent.ACTION_SENDTO)
         intent.data = Uri.parse("mailto:")
         intent.putExtra(Intent.EXTRA_EMAIL, addresses)
