@@ -3,7 +3,6 @@
   <component name="AutomaticModuleUnloader">
     <loaded-modules>
       <module name="Keyrnel" />
-      <module name="keyrnel" />
     </loaded-modules>
   </component>
   <component name="CMakeSettings">
