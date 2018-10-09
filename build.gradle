@@ -15,13 +15,14 @@ buildscript {
     }
 }
 
+plugins {
+    id 'com.jfrog.bintray' version '1.7.2' // jCenter
+    id 'com.github.dcendents.android-maven' version '1.5' // maven
+}
+
 allprojects {
     repositories {
         google()
         jcenter()
     }
-}
-
-task clean(type: Delete) {
-    delete rootProject.buildDir
 }
