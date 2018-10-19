@@ -1,5 +1,5 @@
 # Keyrnel Android 
-[![version](https://img.shields.io/badge/version-1.0-blue.svg)](https://github.com/keyrusrocks/Keyrnel-Android/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![version](https://img.shields.io/badge/version-1.0.2-blue.svg)](https://github.com/keyrusrocks/Keyrnel-Android/releases) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Keyrnel is a framework developed by [Keyrus](www.keyrus.com) to make easier and faster the creation and the development of Android Apps.
 The same framework exists for iOS developments : [Keyrnel iOS](https://github.com/keyrusrocks/Keyrnel-iOS)
@@ -10,7 +10,7 @@ The same framework exists for iOS developments : [Keyrnel iOS](https://github.co
 In your app level `build.gradle`, add the following line under your `dependencies` tag :
 
 ```
-compile 'com.keyrus.keyrnel:keyrnel:1.0
+compile 'com.keyrus.keyrnel:keyrnel:1.0.2
 ```
 
 Then synch your gradle files and une Keyrnel in your code.
